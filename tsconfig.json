@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "dsit",
+    "typeRoots": [
+      "../node_modules/@types",
+    ],
+    "types": [
+      "node",
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
